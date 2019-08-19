@@ -13,6 +13,7 @@ function johnLennonFacts(facts) {
   let n = 0;
   while (facts.length > n) {
     arr.push(`${facts[n]}!!!`);
+    n++;
   }
   return arr;
 }
